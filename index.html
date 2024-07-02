@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGLDecompressed.loader.js";
+      var loaderUrl = buildUrl + "/WEBGAME.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGLDecompressed.data",
-        frameworkUrl: buildUrl + "/WebGLDecompressed.framework.js",
-        codeUrl: buildUrl + "/WebGLDecompressed.wasm",
+        dataUrl: buildUrl + "/WEBGAME.data.gz",
+        frameworkUrl: buildUrl + "/WEBGAME.framework.js.gz",
+        codeUrl: buildUrl + "/WEBGAME.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Sadouzz",
         productName: "FrenzyChase",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/WebGLDecompressed.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WEBGAME.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
